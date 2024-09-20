@@ -13,7 +13,6 @@ public class HomePage extends BasePage {
     }
 
     public boolean isTitleDescargaLaAppVisible() {
-        // Espera hasta que el texto sea visible y correcto
         return wait.until(ExpectedConditions.textToBe(titleBy, "Descarga la app"));
     }
 }
