@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Prueba Técnica Wallbit">
+    <listeners>
+        <listener class-name="ar.org.icaro.automatizacion.reporte.Reporte" />
+    </listeners>
+    <test name="Prueba Login">
+        <classes>
+            <class name="ar.org.icaro.automatizacion.runner.CucumberRunnerTests"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
