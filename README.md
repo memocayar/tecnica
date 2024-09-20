@@ -25,7 +25,7 @@ Antes de ejecutar los tests, se debe tener instalados los siguientes requisitos:
 
 ```bash
 git clone [https://github.com/usuario/proyecto.git](https://github.com/memocayar/tecnica)
-
+```
 2. Abrir el proyecto con IntelliJ
 3. Instalar los plugins de TestNG, Cucumber.
 4. Click derecho en el archivo "testng.xml" y presionar "run"
